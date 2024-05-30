@@ -34,4 +34,6 @@ urlpatterns = [
 		     name="account_change_password",
 		     ),
     path('', include('allauth.urls')),
+    #dingdong
+    path('', include('allclubs.urls')),
 ]
